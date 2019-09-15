@@ -1,0 +1,5 @@
+#!/bin/sh
+
+openssl aes-256-cbc -K $encrypted_96d68665d43c_key -iv $encrypted_96d68665d43c_iv -in jupiter-one-api-token.txt.enc -out jupiter-one-api-token.txt -d
+
+node ./verifyChanges.js $J1_ACCOUNT $J1_INTEGRATION_INSTANCE_ID

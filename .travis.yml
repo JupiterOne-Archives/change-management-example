@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - '10'
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - J1_ACCOUNT=lifeomic
+    - J1_INTEGRATION_INSTANCE_ID="b8cfacbd-551a-48dc-b0f9-aef6e5ab493e"
+
+jobs:
+  include:
+    - script: ./test
+    - stage: verify changes
+      if: type = push
+      script: ./verify-changes
+    - stage: publish
+      if: type = push
+      script: ./publish

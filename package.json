@@ -1,0 +1,13 @@
+{
+  "name": "@jupiterone/jupiter-change-management-example",
+  "version": "0.1.0",
+  "description": "An example of utilizing JupiterOne for change management.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "@jupiterone/jupiter-change-management-client": "^0.1.0"
+  }
+}
