@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@jupiterone/change-management-client@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@jupiterone/change-management-client/-/change-management-client-0.1.0.tgz#92d9b0cfcff252444863287d16e659f41a40b893"
-  integrity sha512-NoyrxGy5ceRS9m/K+OU5flCUFdrlpDGhRWdGATCTnrAVoGxQBHhoiH71SDY25JLwsEQyssgo/5VDb+ZqGyOzSg==
+"@jupiterone/change-management-client@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@jupiterone/change-management-client/-/change-management-client-0.2.0.tgz#72982c2942327300647948e573b4a359ecf33868"
+  integrity sha512-Jm+YUhzTzFwMjRyuA1rwjQlsWMQ5scATM1Yt0t3oBgEtVTzcXDCHvyI97k+VSr6oqHcwSYB1JsAR2KVjEW+kvQ==
   dependencies:
     "@jupiterone/jupiterone-client-nodejs" "0.15.0"
 
