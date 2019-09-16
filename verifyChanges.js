@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { JupiterOneChangeManagementClient } = require('@jupiterone/jupiter-change-management-client');
+const { JupiterOneChangeManagementClient } = require('@jupiterone/change-management-client');
 
 (async function() {
   const jupiterOneAccount = process.argv[2];
